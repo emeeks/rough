@@ -3,7 +3,7 @@ import babel from "rollup-plugin-babel"
 export default {
   input: "src/index.js",
   output: {
-    format: "iife",
+    format: "cjs",
     name: "rough",
     file: "dist/rough.js",
     sourcemap: "inline"
