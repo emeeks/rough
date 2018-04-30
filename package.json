@@ -6,7 +6,7 @@
   "main": "dist/rough.min.js",
   "scripts": {
     "build": "npm run build-d",
-    "build-d": "rollup -c && npm run minify-d",
+    "build-d": "babel src --out-dir lib && rollup -c && npm run minify-d",
     "minify-d":
       "babel-minify dist/rough.js -o dist/rough.min.js --mangle && rm dist/rough.js",
     "test": "echo \"Error: no test specified\" && exit 1"
