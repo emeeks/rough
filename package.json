@@ -3,12 +3,9 @@
   "version": "0.0.1",
   "description":
     "Create graphics using HTML Canvas or SVG with a hand-drawn, sketchy, appearance.",
-  "main": "dist/rough.min.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "npm run build-d",
-    "build-d": "babel src --out-dir lib && rollup -c && npm run minify-d",
-    "minify-d":
-      "babel-minify dist/rough.js -o dist/rough.min.js --mangle && rm dist/rough.js",
+    "build": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/emeeks/rough/issues"
   },
-  "homepage": "https://roughjs.com",
+  "homepage": "https://github.com/emeeks/rough",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-minify": "^0.3.0",
@@ -36,9 +33,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
-    "rollup": "^0.56.3",
-    "rollup-plugin-babel": "^3.0.3"
+    "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0"
