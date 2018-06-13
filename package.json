@@ -1,6 +1,6 @@
 {
-  "name": "roughjs",
-  "version": "2.1.1",
+  "name": "roughjs-es5",
+  "version": "0.0.1",
   "description":
     "Create graphics using HTML Canvas or SVG with a hand-drawn, sketchy, appearance.",
   "main": "dist/rough.min.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pshihn/rough.git"
+    "url": "git+https://github.com/emeeks/rough.git"
   },
   "keywords": [
     "canvas",
@@ -23,10 +23,10 @@
     "hand drawn",
     "hand-drawn"
   ],
-  "author": "Preet Shihn <preetshihn@gmail.com>",
+  "author": "elijahmeeks@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pshihn/rough/issues"
+    "url": "https://github.com/emeeks/rough/issues"
   },
   "homepage": "https://roughjs.com",
   "devDependencies": {
